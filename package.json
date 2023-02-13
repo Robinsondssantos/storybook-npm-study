@@ -1,0 +1,8 @@
+{
+  "name": "storybook-npm-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Robinsondssantos/storybook-npm-study.git",
+  "author": "Robinson D. S. Santos <robinsondssantos@gmail.com>",
+  "license": "MIT"
+}
