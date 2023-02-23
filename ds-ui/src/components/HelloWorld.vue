@@ -1,6 +1,7 @@
 <template>
   <v-container class="fill-height">
     <v-responsive class="d-flex align-center text-center fill-height">
+      <ds-button></ds-button>
       <v-img
         contain
         height="300"
@@ -75,5 +76,5 @@
 </template>
 
 <script setup>
-  //
+  import { DsButton } from "../lib"
 </script>
