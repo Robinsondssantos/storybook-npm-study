@@ -1,6 +1,6 @@
 {
-  "name": "ds-ui",
-  "version": "0.0.0",
+  "name": "ds-hero-ui",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
@@ -44,12 +44,12 @@
   },
   "type": "module",
   "files": ["dist"],
-  "main": "./dist/ds-ui.umd.cjs",
-  "module": "./dist/ds-ui.js",
+  "main": "./dist/ds-hero-ui.umd.cjs",
+  "module": "./dist/ds-hero-ui.js",
   "exports": {
     ".": {
-      "import": "./dist/ds-ui.js",
-      "require": "./dist/ds-ui.umd.cjs"
+      "import": "./dist/ds-hero-ui.js",
+      "require": "./dist/ds-hero-ui.umd.cjs"
     }
   }
 }
