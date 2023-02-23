@@ -42,17 +42,14 @@
   "volta": {
     "node": "16.19.1"
   },
-  {
-    "type": "module",
-    "files": ["dist"],
-    "main": "./dist/ds-ui.umd.cjs",
-    "module": "./dist/ds-ui.js",
-    "exports": {
-      ".": {
-        "import": "./dist/ds-ui.js",
-        "require": "./dist/ds-ui.umd.cjs"
-      }
+  "type": "module",
+  "files": ["dist"],
+  "main": "./dist/ds-ui.umd.cjs",
+  "module": "./dist/ds-ui.js",
+  "exports": {
+    ".": {
+      "import": "./dist/ds-ui.js",
+      "require": "./dist/ds-ui.umd.cjs"
     }
   }
-  
 }
