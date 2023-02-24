@@ -1375,6 +1375,11 @@
   resolved "https://registry.yarnpkg.com/@mdi/font/-/font-7.0.96.tgz#9853c222623072f5575b4039c8c195ea929b61fc"
   integrity sha512-rzlxTfR64hqY8yiBzDjmANfcd8rv+T5C0Yedv/TWk2QyAQYdc66e0kaN1ipmnYU3RukHRTRcBARHzzm+tIhL7w==
 
+"@mdi/font@^6.6.96":
+  version "6.9.96"
+  resolved "https://registry.yarnpkg.com/@mdi/font/-/font-6.9.96.tgz#c68da7e0895885dd09e60dc08c5ecc0d77f67efb"
+  integrity sha512-z3QVZStyHVwkDsFR7A7F2PIvZJPWgdSFw4BEEy2Gc9HUN5NfK9mGbjgaYClRcbMWiYEV45srmiYtczmBtCqR8w==
+
 "@mdx-js/mdx@^1.6.22":
   version "1.6.22"
   resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-1.6.22.tgz#8a723157bf90e78f17dc0f27995398e6c731f1ba"
@@ -1676,7 +1681,7 @@
     prop-types "^15.7.2"
     regenerator-runtime "^0.13.7"
 
-"@storybook/addons@6.5.16":
+"@storybook/addons@6.5.16", "@storybook/addons@^6.5.10":
   version "6.5.16"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-6.5.16.tgz#07e8f2205f86fa4c9dada719e3e096cb468e3cdd"
   integrity sha512-p3DqQi+8QRL5k7jXhXmJZLsE/GqHqyY6PcoA1oNTJr0try48uhTGUOYkgzmqtDaa/qPFO5LP+xCPzZXckGtquQ==
@@ -2297,7 +2302,7 @@
     regenerator-runtime "^0.13.7"
     resolve-from "^5.0.0"
 
-"@storybook/vue3@^6.5.16":
+"@storybook/vue3@^6.5.10", "@storybook/vue3@^6.5.16":
   version "6.5.16"
   resolved "https://registry.yarnpkg.com/@storybook/vue3/-/vue3-6.5.16.tgz#b70346a445b26820f689401f81c4327a068aff9c"
   integrity sha512-bKUxNlzv2a1V8mGIDgI77uBbZ9GI2ydhQ2TQA/Hd3pCycm/3YEISsetPkhieS+M5Kmh2lum250c+2UyBRmnrZQ==
@@ -9764,6 +9769,16 @@ store2@^2.12.0:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.14.2.tgz#56138d200f9fe5f582ad63bc2704dbc0e4a45068"
   integrity sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==
 
+storybook-addon-vuetify3@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/storybook-addon-vuetify3/-/storybook-addon-vuetify3-2.0.5.tgz#db7c0efc8bd553f90ed7a7d6e22096cf855091c8"
+  integrity sha512-MaWb3n5ctRJ7JfbXmrPMsbSNELN8a3KjeLpJ04x26jDk5yxCuy4z3C621z8vv4jZPpaGTeGJmupJELOwLC8lnA==
+  dependencies:
+    "@mdi/font" "^6.6.96"
+    "@storybook/addons" "^6.5.10"
+    "@storybook/vue3" "^6.5.10"
+    vuetify "^3.0.0-beta.0"
+
 stream-browserify@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/stream-browserify/-/stream-browserify-2.0.2.tgz#87521d38a44aa7ee91ce1cd2a47df0cb49dd660b"
@@ -10735,7 +10750,7 @@ vue@^3.2.13:
     "@vue/server-renderer" "3.2.47"
     "@vue/shared" "3.2.47"
 
-vuetify@^3.0.0:
+vuetify@^3.0.0, vuetify@^3.0.0-beta.0:
   version "3.1.6"
   resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.1.6.tgz#9ba513ac7b3ca9b0c7817dc63a8c18079eea9e49"
   integrity sha512-4We27L5ksy8esNKfUPWPucEU+M7XJDO2o66zXL5qiBVbALwshcK2CAobLQMx+ALtkLENXAYNH3RzvfAYjTi3Aw==

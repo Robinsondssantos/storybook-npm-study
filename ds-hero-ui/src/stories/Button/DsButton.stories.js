@@ -3,9 +3,9 @@ import { DsButton } from "../../lib/";
 export default {
   title: 'DS/Button',
   component: DsButton,
-  // parameters: {
-  //   layout: 'fullscreen',
-  // },
+  parameters: {
+    layout: 'fullscreen',
+  },
   argTypes: {
     color: {
       control: { type: 'select' },
