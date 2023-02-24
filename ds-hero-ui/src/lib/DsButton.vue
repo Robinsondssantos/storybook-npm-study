@@ -18,23 +18,43 @@
     props: {
       color: {
         type: String,
-        default: '',
-        validator: function (v) {
-          return ['primary', 'secondary', 'warning', 'error', 'success'].indexOf(v) !== -1
+        validator(v) {
+          return [
+            'primary', 
+            'secondary', 
+            'warning', 
+            'error', 
+            'success'
+          ].includes(v)
         }
       },
       size: {
         type: String,
-        default: 'default',
-        validator: function (v) {
-          return ['x-small', 'small', 'large', 'x-large'].indexOf(v) !== -1
+        default() {
+          return 'default'
+        },
+        validator(v) {
+          return [
+            'x-small', 
+            'small', 
+            'large',
+             'x-large'
+          ].includes(v)
         }
       },
       variant: {
         type: String,
-        default: 'elevated',
-        validator: function (v) {
-          return ['flat', 'tonal', 'outlined', 'text', 'plain'].indexOf(v) !== -1
+        default() {
+          return 'elevated'
+        },
+        validator(v) {
+          return [
+            'flat', 
+            'tonal', 
+            'outlined', 
+            'text', 
+            'plain'
+          ].includes(v)
         }
       },
       loading: {

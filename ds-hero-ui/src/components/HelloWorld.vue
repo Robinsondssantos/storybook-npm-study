@@ -1,8 +1,8 @@
 <template>
   <v-container class="fill-height">
     <v-responsive class="d-flex align-center text-center fill-height">
-      <ds-button size="x-large" variant="tonal" color="">estou aqui</ds-button>
-      <ds-temperature-card></ds-temperature-card>
+      <ds-button size="x-large" variant="tonal">estou aqui</ds-button>
+      <!-- <ds-temperature-card></ds-temperature-card> -->
       <v-img
         contain
         height="300"
