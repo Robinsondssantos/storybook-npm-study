@@ -19,13 +19,13 @@
       color: {
         type: String,
         validator(v) {
-          return [
+          return v === null || [
             'primary', 
             'secondary', 
             'warning', 
             'error', 
             'success'
-          ].includes(v)
+          ].includes(v) || null
         }
       },
       size: {
@@ -34,7 +34,7 @@
           return 'default'
         },
         validator(v) {
-          return [
+          return v === 'default' || [
             'x-small', 
             'small', 
             'large',
@@ -48,7 +48,7 @@
           return 'elevated'
         },
         validator(v) {
-          return [
+          return v === 'elevated' || [
             'flat', 
             'tonal', 
             'outlined', 
