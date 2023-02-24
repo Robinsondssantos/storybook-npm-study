@@ -1,5 +1,7 @@
-import Button from "./DsButton.vue"
+import DsButton from "./DsButton.vue"
+import DsTemperatureCard from "./DsTemperatureCard.vue"
 
 export {
-  Button as DsButton
+  DsButton,
+  DsTemperatureCard,
 }

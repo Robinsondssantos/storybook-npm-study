@@ -4735,6 +4735,35 @@ dotenv@^8.0.0:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.6.0.tgz#061af664d19f7f4d8fc6e4ff9b584ce237adcb8b"
   integrity sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g==
 
+ds-hero-ui@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/ds-hero-ui/-/ds-hero-ui-0.0.1.tgz#e1952ca212610add922dcde653ef9b1a5a71542a"
+  integrity sha512-yK3nZd8/oPSlOO6eC0cgTRCkBEeUZUbjHvwgLD77wCWlEd8AYNrSIjmz76TBfl3HzF6/2+uOuj64kSCoyJ0R9A==
+  dependencies:
+    "@mdi/font" "7.0.96"
+    core-js "^3.8.3"
+    pinia "^2.0.23"
+    roboto-fontface "*"
+    vue "^3.2.13"
+    vue-router "^4.0.0"
+    vuetify "^3.0.0"
+    webfontloader "^1.0.0"
+
+ds-hero-ui@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/ds-hero-ui/-/ds-hero-ui-0.0.2.tgz#090cbcc583b2b1da560ad2733f038e7519cd5e97"
+  integrity sha512-UO0Q1zfoJ7hSkrwgOeav31ayjQ2w2oBdZVjJm3qdcjvjbpm/hlaj4g0vBbHe0cfvkvJX+WDTMbOxMlnF5gIkeQ==
+  dependencies:
+    "@mdi/font" "7.0.96"
+    core-js "^3.8.3"
+    ds-hero-ui "^0.0.1"
+    pinia "^2.0.23"
+    roboto-fontface "*"
+    vue "^3.2.13"
+    vue-router "^4.0.0"
+    vuetify "^3.0.0"
+    webfontloader "^1.0.0"
+
 duplexify@^3.4.2, duplexify@^3.6.0:
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/duplexify/-/duplexify-3.7.1.tgz#2a4df5317f6ccfd91f86d6fd25d8d8a103b88309"
