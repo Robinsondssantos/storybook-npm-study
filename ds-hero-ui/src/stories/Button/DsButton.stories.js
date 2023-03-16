@@ -1,4 +1,4 @@
-import { DsButton } from "../../lib/";
+import { DsButton } from "../../lib/index.js";
 
 export default {
   title: 'DS/Button',

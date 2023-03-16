@@ -77,7 +77,7 @@
 </template>
 
 <script setup>
-  import { DsButton, DsTemperatureCard } from "../lib"
+  import { DsButton, DsTemperatureCard } from "../lib/index.js"
   // import { DsButton } from 'ds-hero-ui';
 
 </script>

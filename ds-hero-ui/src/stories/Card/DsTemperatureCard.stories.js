@@ -1,4 +1,4 @@
-import { DsTemperatureCard } from "../../lib";
+import { DsTemperatureCard } from "../../lib/index.js";
 
 export default {
   title: 'DS/Card',
